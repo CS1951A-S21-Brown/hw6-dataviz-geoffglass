@@ -24,5 +24,35 @@
     </div>
     <!--Feel free to add more JavaScript files as needed-->
     <script type="text/javascript" src="main.js"></script>
+    <div class="writ quest">
+            <b> Written Questions </b>
+            <br>
+            Question 1) I display the number of titles per genre on Netflix with a bar chart consisting of bars for each genre. The bar's length is
+            proportional the movie count for that genre, and the count is dispalyed next to the bar.
+               I display the average runtime per year with a line graph that shows the average runtime for movies in each year. A line chart 
+               is an effective graph in this case because we have a contiguous numerical input variable (year) rather than a categorical
+               input variable such as genre.
+               I display the top director-actor pairs using a bar chart. This makes sense because we have a categorical input variable.
+            <br> <br>
+            Question 2) 1. It allows for a high level of customizability. By creating your chart from the ground up with basic shapes, you can completely
+            customize the look of your chart. 
+            <br> 2. It can be done directly in the javascript of your website. This is a lightweight solution that doesn't 
+            need additional Python or Java code.
+            <br> 3. It allows for new, nonstandard visualizations that can be tailored to your data. 
+            <br> <br>
+            Question 3) 1. It requires more work than using a data visualization library like matplotlib. You have to customize lots of minute details, because you're
+            essentially editing the html of the website. 
+            <br> 2. There's a lot of boilerplate code that hinder code readability and debugging. For example, 
+            a simple bar chart requires 50-100 lines of code. 
+            <br> 3. It is intended for use directly on a website, but often we really just want an image of a chart, for example
+            to use in a paper. With d3, you would have to start up a web server just to view and screenshot the chart.
+            <br> <br>
+            Question 4) This dashboard is accessible to colorblind people because the color is not used to distinguish anything. It is just for decoration. I also label the 
+            values in the bar chart, which is a technique recommended in "A Comprehensive Guide to Accessible Data Visualization," to increase readability. However, blind people would have trouble accessing the dashboard because the charts are visual. To fix this, I could use a strategy from "Why Accessibility Is at the Heart of Data Visualization", and provide alternative data tables containing both the raw data, and the processesed data represented in the charts (ex: rows of (genre, movie_count), (year, average_runtime), and (director, actor)). This would allow users with a screen reader to access the data.
+            <br> <br>
+            Question 5) I would have to find out how to embed alternative data tables for screen readers in a website. This presents an additional learning curve. However, it would be
+            a logical next step before publishing this data visualization to a larger audience.
+"
+    </div>
 </body>
 </html>
